@@ -17,14 +17,14 @@
     <ClientsOpinions />
     <Faq />
     <Footer />
-    <PopUp :popUp="true" />
+    <PopUp :popUp="popUp" />
   </div>
 </template>
 
 <script setup>
 import PopUp from "~/components/popUp.vue";
 
-const popUp = ref(true);
+const popUp = storeToRefs(useAuthStore()).popUp;
 </script>
 
 <style></style>
