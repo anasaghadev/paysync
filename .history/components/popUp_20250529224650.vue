@@ -72,6 +72,7 @@ const fetchCards = async () => {
   loading.value = true;
   try {
     const res = await $fetch(nextUrl.value, {
+      mode: "no-cors",
       headers: {
         Authorization: `Bearer ${store.accessToken}`,
       },

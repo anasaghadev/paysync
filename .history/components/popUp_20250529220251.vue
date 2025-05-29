@@ -62,9 +62,6 @@ const popUp = storeToRefs(store).popUp;
 const cards = ref([]);
 const loading = ref(false);
 const nextUrl = ref("https://doctors.sy/dummy-data/paysync/cards/?limit=10");
-// const nextUrl = ref(
-//   "http://doctors.sy/dummy-data/paysync/cards/?limit=10&offset=10"
-// );
 const scrollContainer = ref(null);
 
 const fetchCards = async () => {
@@ -76,7 +73,6 @@ const fetchCards = async () => {
         Authorization: `Bearer ${store.accessToken}`,
       },
     });
-    console.log(res);
     cards.value.push(...res.results);
     nextUrl.value = res.next;
   } catch (err) {
@@ -95,11 +91,6 @@ const onScroll = () => {
 
 onMounted(() => {
   fetchCards();
-});
-watch(popUp, (val) => {
-  if (val) {
-    fetchCards();
-  }
 });
 </script>
 

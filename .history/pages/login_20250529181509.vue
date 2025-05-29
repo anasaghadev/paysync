@@ -21,7 +21,7 @@
       <div
         class="inner-container sm:px-6 md:px-10 flex flex-col w-full space-y-5"
       >
-        <h1 class="font-medium text-[24px] text-center">Login</h1>
+        <h1 class="font-medium text-[24px] text-center">Sign up</h1>
         <div class="btns space-y-4">
           <button
             class="bg-[#171717] py-5 rounded-full flex gap-4 justify-center items-center w-full"

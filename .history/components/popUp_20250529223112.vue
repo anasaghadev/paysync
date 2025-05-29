@@ -96,11 +96,6 @@ const onScroll = () => {
 onMounted(() => {
   fetchCards();
 });
-watch(popUp, (val) => {
-  if (val) {
-    fetchCards();
-  }
-});
 </script>
 
 <style></style>

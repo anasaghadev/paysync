@@ -2,15 +2,14 @@
   <div
     v-show="popUp"
     @scroll="onScroll"
-    ref="scrollContainer"
-    class="onscroll fixed inset-0 h-svh overflow-y-auto bg-[#121212] text-center py-10 rounded-2xl"
+    class="onscroll fixed inset-0 h-svh overflow-scroll bg-[#121212] text-center py-10 rounded-2xl"
   >
     <div class="container lg:max-w-[1000px]">
       <button @click="popUp = false" class="back flex gap-2 mb-8">
         <img src="/imgs/back-arrow.svg" alt="" />
         <p class="text-[28px] font-bold">Back</p>
       </button>
-      <div>
+      <div ref="scrollContainer">
         <div class="cards space-y-5">
           <div
             v-for="(card, index) in cards"
@@ -62,9 +61,6 @@ const popUp = storeToRefs(store).popUp;
 const cards = ref([]);
 const loading = ref(false);
 const nextUrl = ref("https://doctors.sy/dummy-data/paysync/cards/?limit=10");
-// const nextUrl = ref(
-//   "http://doctors.sy/dummy-data/paysync/cards/?limit=10&offset=10"
-// );
 const scrollContainer = ref(null);
 
 const fetchCards = async () => {
@@ -76,12 +72,11 @@ const fetchCards = async () => {
         Authorization: `Bearer ${store.accessToken}`,
       },
     });
-    console.log(res);
     cards.value.push(...res.results);
     nextUrl.value = res.next;
   } catch (err) {
     console.error("Failed to load cards:", err);
-    //navigateTo("/login");
+    navigateTo("/login");
   } finally {
     loading.value = false;
   }
@@ -95,11 +90,6 @@ const onScroll = () => {
 
 onMounted(() => {
   fetchCards();
-});
-watch(popUp, (val) => {
-  if (val) {
-    fetchCards();
-  }
 });
 </script>
 

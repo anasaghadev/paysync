@@ -72,6 +72,7 @@ const fetchCards = async () => {
   loading.value = true;
   try {
     const res = await $fetch(nextUrl.value, {
+      mode: "no-cors",
       headers: {
         Authorization: `Bearer ${store.accessToken}`,
       },
@@ -95,11 +96,6 @@ const onScroll = () => {
 
 onMounted(() => {
   fetchCards();
-});
-watch(popUp, (val) => {
-  if (val) {
-    fetchCards();
-  }
 });
 </script>
 
