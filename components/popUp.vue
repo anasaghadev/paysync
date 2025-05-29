@@ -33,14 +33,6 @@
                 <li v-for="(item, idx) in card.highlights" :key="idx">
                   {{ item }}
                 </li>
-                <!-- <li>
-                  Revenue Growth: Achieved a 25% increase in sales during the
-                  holiday season compared to the previous year.
-                </li>
-                <li>
-                  Customer Satisfaction: Improved customer feedback, with
-                  satisfaction ratings rising from 75% to 92%.
-                </li> -->
               </ul>
             </div>
           </div>

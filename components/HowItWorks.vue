@@ -32,29 +32,6 @@
           </div>
           <div class="blank-space col-span-4"></div>
         </div>
-        <!-- <div class="timeline-block grid grid-cols-9 gap-[60px]">
-          <div class="card rounded-lg bg-[#1E1E1E] py-7 px-10 col-span-4 mb-5">
-            <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold mb-3">
-              Multi-Processor Connectivity
-            </h3>
-            <p
-              class="text-xs sm:text-sm lg:text-base font-medium text-[#FAFAFACC]"
-            >
-              Connect effortlessly with over 50+ payment processors through a
-              single API, broadening payment options for your business
-            </p>
-          </div>
-          <div class="divider col-span-1 h-full flex flex-col items-center">
-            <div
-              class="number w-12 h-12 aspect-square p-1.5 flex items-center justify-center bg-[#DBEFDCCC] text-secondary-80 text-xl font-medium rounded-full"
-            >
-              2
-            </div>
-            <div class="line"></div>
-            <div></div>
-          </div>
-          <div class="blank-space col-span-4"></div>
-        </div> -->
       </div>
     </div>
   </div>

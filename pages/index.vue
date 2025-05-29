@@ -1,5 +1,12 @@
 <template>
   <div>
+    <Head>
+      <title>PaySinc</title>
+      <meta
+        name="description"
+        content="PaySinc is a medical company that helps you a lot."
+      />
+    </Head>
     <HeroSection />
     <HeroRest />
     <WhyUs />

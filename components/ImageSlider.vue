@@ -86,10 +86,6 @@
               >
                 Learn More
               </button>
-              <!-- <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                maxime, velit, consequatur sapiente
-              </p> -->
             </div>
           </div>
         </div>
