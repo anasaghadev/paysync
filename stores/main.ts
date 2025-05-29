@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 
 export const useAuthStore = defineStore("auth", {
   state: () => ({
-    popUp: true as boolean,
+    popUp: false as boolean,
     baseUrl: "https://doctors.sy/dummy-data" as string,
     accessToken: null as string | null,
     refreshToken: null as string | null,
