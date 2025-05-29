@@ -3,7 +3,12 @@
     <div class="container">
       <div class="flex flex-col md:flex-row gap-14 justify-center items-center">
         <div class="img">
-          <img class="rounded-lg" src="/imgs/get-strated.webp" alt="" />
+          <img
+            loading="lazy"
+            class="rounded-lg"
+            src="/imgs/get-strated.webp"
+            alt=""
+          />
         </div>
         <div class="text flex flex-col gap-4">
           <h3 class="text-[28px] font-bold">

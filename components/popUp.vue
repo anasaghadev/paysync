@@ -7,7 +7,7 @@
   >
     <div class="container lg:max-w-[1000px]">
       <button @click="popUp = false" class="back flex gap-2 mb-8">
-        <img src="/imgs/back-arrow.svg" alt="" />
+        <img loading="lazy" src="/imgs/back-arrow.svg" alt="" />
         <p class="text-[28px] font-bold">Back</p>
       </button>
       <div>
@@ -18,6 +18,7 @@
             class="card bg-[#1E1E1E] p-5 flex gap-10 rounded-xl text-start"
           >
             <img
+              loading="lazy"
               class="w-[168px] h-[220px] object-cover object-center rounded-lg"
               :src="card.image_url"
               alt=""

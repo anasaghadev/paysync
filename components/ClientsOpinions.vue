@@ -11,6 +11,7 @@
           class="card rounded-lg bg-[#1E1E1E] py-7 px-10 flex flex-col items-center text-center gap-4"
         >
           <img
+            loading="lazy"
             class="w-20 h-[88px] object-cover object-top rounded-lg"
             :src="client.img"
           />
@@ -20,7 +21,7 @@
           </p>
           <h5 class="text-lg lg:text-xl font-medium">{{ client.name }}</h5>
           <p class="text-font-20 text-sm lg:text-base">{{ client.position }}</p>
-          <img :src="client.stars" alt="" />
+          <img loading="lazy" :src="client.stars" alt="" />
         </div>
       </div>
     </div>

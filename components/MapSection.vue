@@ -32,7 +32,7 @@
           </button>
         </div>
         <div class="img">
-          <img src="/imgs/map.png" alt="" />
+          <img loading="lazy" src="/imgs/map.png" alt="" />
         </div>
       </div>
     </div>

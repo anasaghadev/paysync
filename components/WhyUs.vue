@@ -5,7 +5,12 @@
         <div class="text space-y-5">
           <h3 class="text-[28px] font-bold mb-9">Why PaySinc !?</h3>
           <div class="detail flex gap-10 items-start">
-            <img class="m-0 mt-[5px]" src="/imgs/green-dot.svg" alt="" />
+            <img
+              loading="lazy"
+              class="m-0 mt-[5px]"
+              src="/imgs/green-dot.svg"
+              alt=""
+            />
             <div class="text space-y-2.5">
               <h4 class="text-lg lg:text-xl font-medium">
                 Enhanced Success Rates
@@ -17,7 +22,12 @@
             </div>
           </div>
           <div class="detail flex gap-10 items-start">
-            <img class="m-0 mt-[5px]" src="/imgs/red-dot.svg" alt="" />
+            <img
+              loading="lazy"
+              class="m-0 mt-[5px]"
+              src="/imgs/red-dot.svg"
+              alt=""
+            />
             <div class="text space-y-2.5">
               <h4 class="text-lg lg:text-xl font-medium">Reduced Dependency</h4>
               <p class="text-sm lg:text-base text-[#FAFAFA]">
@@ -27,7 +37,12 @@
             </div>
           </div>
           <div class="detail flex gap-10 items-start">
-            <img class="m-0 mt-[5px]" src="/imgs/yellow-dot.svg" alt="" />
+            <img
+              loading="lazy"
+              class="m-0 mt-[5px]"
+              src="/imgs/yellow-dot.svg"
+              alt=""
+            />
             <div class="text space-y-2.5">
               <h4 class="text-lg lg:text-xl font-medium">
                 Cost-Effective Solutions
@@ -40,7 +55,12 @@
           </div>
         </div>
         <div class="img">
-          <img class="rounded-xl" src="/imgs/whyus-chart.webp" alt="" />
+          <img
+            loading="lazy"
+            class="rounded-xl"
+            src="/imgs/whyus-chart.webp"
+            alt=""
+          />
         </div>
       </div>
     </div>

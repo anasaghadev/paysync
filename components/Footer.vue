@@ -6,7 +6,7 @@
       >
         <div class="space-y-3">
           <span class="logo flex gap-1 p-3">
-            <img src="/imgs/logo.png" alt="" />
+            <img loading="lazy" src="/imgs/logo.png" alt="" />
             <span class="text-[24px]">PaySync</span>
           </span>
           <p>
@@ -23,19 +23,19 @@
           <h5 class="font-semibold">Contact us</h5>
           <div class="contacts space-y-5">
             <a class="contact flex gap-2">
-              <img src="/imgs/MapPin.svg" class="icon" />
+              <img loading="lazy" src="/imgs/MapPin.svg" class="icon" />
               <p class="text">Syria, Damascus</p>
             </a>
             <a href="mailto:PaySinc@gmail.com" class="contact flex gap-2">
-              <img src="/imgs/Envelope.svg" class="icon" />
+              <img loading="lazy" src="/imgs/Envelope.svg" class="icon" />
               <p class="text">PaySinc@gmail.com</p>
             </a>
             <a href="tel:+963980791411" class="contact flex gap-2">
-              <img src="/imgs/PhoneCall.svg" class="icon" />
+              <img loading="lazy" src="/imgs/PhoneCall.svg" class="icon" />
               <p class="text">+963980791411</p>
             </a>
             <a href="tel:+963980791411" class="contact flex gap-2">
-              <img src="/imgs/PhoneCall.svg" class="icon" />
+              <img loading="lazy" src="/imgs/PhoneCall.svg" class="icon" />
               <p class="text">+963980791411</p>
             </a>
           </div>

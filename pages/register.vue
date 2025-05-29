@@ -26,13 +26,13 @@
           <button
             class="bg-[#171717] py-5 rounded-full flex gap-4 justify-center items-center w-full"
           >
-            <img src="/imgs/facebook.svg" alt="" />
+            <img loading="lazy" src="/imgs/facebook.svg" alt="" />
             <p class="text-lg">Sign up with Facebook</p>
           </button>
           <button
             class="bg-[#171717] py-5 rounded-full flex gap-4 justify-center items-center w-full"
           >
-            <img src="/imgs/google.svg" alt="" />
+            <img loading="lazy" src="/imgs/google.svg" alt="" />
             <p class="text-lg">Sign up with Google</p>
           </button>
         </div>

@@ -18,6 +18,7 @@
               {{ faq.question }}
             </p>
             <img
+              loading="lazy"
               class="transition-all duration-200"
               :class="index == opened ? 'rotate-180 ease-in' : 'ease-out'"
               src="/imgs/arrow-down.png"
