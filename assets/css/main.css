@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* colors configuration */
+  --color-primary: #4caf50;
+
+  --color-secondary: #ffffff;
+
+  --color-secondary-10: #dbefdc;
+  --color-secondary-20: #c3e4c5;
+  --color-secondary-30: #a6d7a8;
+  --color-secondary-40: #88ca8a;
+  --color-secondary-50: #6abc6d;
+  --color-secondary-60: #3f9243;
+  --color-secondary-70: #337535;
+  --color-secondary-80: #265828;
+  --color-secondary-90: #193a1b;
+  --color-secondary-100: #0f2310;
+
+  --color-bg-primary: #121212;
+
+  --color-font-10: #d6d6d6;
+  --color-font-20: #bbbbbb;
+  --color-font-30: #999999;
+  --color-font-40: #777777;
+  --color-font-50: #555555;
+  --color-font-base: #333333;
+  --color-font-60: #2b2b2b;
+  --color-font-70: #222222;
+  --color-font-80: #1a1a1a;
+  --color-font-90: #111111;
+  --color-font-100: #0a0a0a;
+  /*  */
+}
+@layer base {
+  :root {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background: var(--color-bg-primary);
+    color: var(--color-secondary);
+  }
+  button,
+  a {
+    @apply cursor-pointer transition-all select-none;
+  }
+  img {
+    user-select: none;
+  }
+}
+
+@utility container {
+  padding-inline: 20px;
+  margin-inline: auto;
+}
