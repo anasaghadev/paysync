@@ -15,7 +15,7 @@
           <div
             v-for="(card, index) in cards"
             :key="index"
-            class="card bg-[#1E1E1E] p-5 flex gap-10 rounded-xl text-start"
+            class="card bg-[#1E1E1E] p-5 flex flex-col items-center lg:flex-row gap-10 rounded-xl text-start"
           >
             <img
               loading="lazy"
@@ -24,10 +24,12 @@
               alt=""
             />
             <div class="text">
-              <p class="title text-[28px] font-bold mb-3">
+              <p
+                class="title text-xl md:text-2xl lg:text-[28px] text-center lg:text-start font-bold mb-3"
+              >
                 {{ card.company }}
               </p>
-              <ul class="list-disc text-xl font-medium">
+              <ul class="list-disc md:text-lg lg:text-xl font-medium pl-5">
                 <li v-for="(item, idx) in card.highlights" :key="idx">
                   {{ item }}
                 </li>
