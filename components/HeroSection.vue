@@ -39,7 +39,8 @@
               </svg>
             </button>
             <div
-              class="menu bg-bg-primary fixed top-0 w-xs h-svh transition-all duration-300 py-7 px-3"
+              @click="mobileMenu = false"
+              class="menu bg-bg-primary fixed top-0 w-xs h-screen z-[999] transition-all duration-300 py-7 px-3"
               :class="mobileMenu ? 'right-0' : '-right-[320px]'"
             >
               <div class="close" @click="mobileMenu = false">
