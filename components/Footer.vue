@@ -7,7 +7,7 @@
         <div class="space-y-3">
           <span class="logo flex gap-1 p-3">
             <img loading="lazy" src="/imgs/logo.png" alt="" />
-            <span class="text-[24px]">PaySync</span>
+            <span class="text-[24px]">PaySinc</span>
           </span>
           <p>
             PaySinc is an innovative payment integration solution that

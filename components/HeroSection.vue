@@ -9,7 +9,7 @@
           <div class="bar flex gap-1 items-center">
             <span class="logo flex gap-1 p-3">
               <img src="/imgs/logo.png" alt="" />
-              <span class="text-xl">PaySync</span>
+              <span class="text-xl">PaySinc</span>
             </span>
             <span class="w-px h-10 bg-secondary"></span>
           </div>
