@@ -76,7 +76,10 @@
       >
         <p class="rights">
           © 2025
-          <a target="_blank" class="text-primary" href="https:anasagha.web.app"
+          <a
+            target="_blank"
+            class="text-primary"
+            href="https://anasagha.web.app"
             >Anas Agha</a
           >
           All rights reserved.
